@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     Intent intent = new Intent(this, DisplayMessageActivity.class);
     EditText editText = (EditText) findViewById(R.id.editText);
     String message1 = editText.getText().toString();
-    String message = ("Welcome, " + message1);
+    String message = ("Login");
     intent.putExtra(EXTRA_MESSAGE, message);
     startActivity(intent);
     }

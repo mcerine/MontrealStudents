@@ -7,9 +7,9 @@
     <string name="edit_message">Enter the name of your school</string>
     <string name="email_hint">Email</string>
     <string name="password_hint">Password</string>
-    <string name="button_blood">Blood Type</string>
-    <string name="button_wh">Weight and Height</string>
-    <string name="button_allergies">Allergies</string>
-    <string name="button_sg">Sex and Gender</string>
+    <string name="button_blood">Resources</string>
+    <string name="button_wh">Classes</string>
+    <string name="button_allergies">Tuition</string>
+    <string name="button_sg">Program</string>
     <string name="LookingFor">String</string>
 </resources>

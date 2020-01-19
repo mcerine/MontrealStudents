@@ -12,7 +12,7 @@
         android:layout_height="52dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="336dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/button_wh"
@@ -33,9 +33,10 @@
         android:text="@string/button_allergies"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button5"
-        app:layout_constraintVertical_bias="0.042"
+        app:layout_constraintVertical_bias="0.059"
         tools:text="@string/button_allergies" />
 
     <Button
@@ -69,18 +70,15 @@
         app:layout_constraintVertical_chainStyle="spread"
         tools:text="@string/button_sg" />
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="321dp"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="38dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/LookingFor"
-        android:inputType="text"
-        android:text="@string/LookingFor"
+        android:text="What are you looking for?"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:text="What are you looking for?" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

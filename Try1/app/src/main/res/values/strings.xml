@@ -11,5 +11,5 @@
     <string name="button_wh">Classes</string>
     <string name="button_allergies">Tuition</string>
     <string name="button_sg">Program</string>
-    <string name="LookingFor">String</string>
+    <string name="LookingFor">What are you looking for?</string>
 </resources>

@@ -16,7 +16,6 @@
         <activity android:name=".Classes" />
         <activity android:name=".Resources" />
         <activity android:name=".Program" />
-        <activity android:name=".DashboardMain" />
         <activity android:name=".Dashboard" />
         <activity
             android:name=".DisplayMessageActivity"

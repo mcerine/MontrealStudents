@@ -7,16 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="411dp"
-        android:layout_height="wrap_content"
-        android:background="?android:attr/windowBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/navigation" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -48,14 +38,12 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="52dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="212dp"
         android:onClick="sendMessage"
         android:text="@string/button_send"
-        app:layout_constraintBottom_toBottomOf="@+id/navigation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.176" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </android.support.constraint.ConstraintLayout>

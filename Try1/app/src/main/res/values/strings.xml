@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MtlCare</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="button_send">Done</string>
+    <string name="edit_message">Enter your Name</string>
+    <string name="edit_card">Enter Medical Care #</string>
+    <string name="button_blood">Blood Type</string>
+    <string name="button_wh">Weight and Height</string>
+    <string name="button_allergies">Allergies</string>
+    <string name="button_sg">Sex and Gender</string>
+    <string name="LookingFor">String</string>
+</resources>

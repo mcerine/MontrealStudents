@@ -12,4 +12,8 @@
     <string name="button_allergies">Tuition</string>
     <string name="button_sg">Program</string>
     <string name="LookingFor">What are you looking for?</string>
+    <string name="ProgramEnrolled">*Program*</string>
+    <string name="edit_message2">Enter the name of your program:</string>
+    <string name="programEn" />
+    <string name="ProgEn" />
 </resources>

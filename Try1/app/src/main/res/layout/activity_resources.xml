@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resources">
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resources:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <TextView
+        android:id="@+id/conco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://my.concordia.ca"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/res"
+        app:layout_constraintVertical_bias="0.198" />
+
+    <TextView
+        android:id="@+id/poly3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.polymtl.ca/en"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/uqam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mcgill" />
+
+    <TextView
+        android:id="@+id/uqam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://uqam.ca/"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/res"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <TextView
+        android:id="@+id/udem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://www.umontreal.ca/"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/res"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <TextView
+        android:id="@+id/mcgill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://horizon.mcgill.ca"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/res"
+        app:layout_constraintVertical_bias="0.328" />
+
+</android.support.constraint.ConstraintLayout>
